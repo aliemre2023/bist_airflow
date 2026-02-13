@@ -1,11 +1,18 @@
 import sys
 import os
-sys.path.append('/opt/airflow')
+sys.path.append(os.environ.get('AIRFLOW_HOME', '/opt/airflow'))
 
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime
-from src.scraper.news_scraper import scrape_bist_news
+from src.scraper.news_scraper import fetch_news_page, scrape_bist_news
+
+
+def full_pipeline():
+    """Önce sayfayı çek, sonra haberleri scrape et"""
+    fetch_news_page()
+    scrape_bist_news()
+
 
 with DAG(
     dag_id='bist100_v1',
@@ -14,7 +21,7 @@ with DAG(
     catchup=False
 ) as dag:
 
-    scrape_task = PythonOperator(
-        task_id='scrape_news',
-        python_callable=scrape_bist_news
+    pipeline_task = PythonOperator(
+        task_id='fetch_and_scrape',
+        python_callable=full_pipeline
     )

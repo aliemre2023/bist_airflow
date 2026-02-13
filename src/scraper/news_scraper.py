@@ -9,6 +9,7 @@ from selenium.webdriver.chrome.options import Options
 from datetime import datetime
 
 import os
+import time
 
 # Base directory - Airflow container'ında /opt/airflow olacak
 BASE_DIR = os.environ.get('AIRFLOW_HOME', os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
@@ -47,7 +48,7 @@ def anchor_finder():
     with open(content_path, "r") as f:
         soup = BeautifulSoup(f.read(), 'html.parser')
 
-    div_list = soup.find('div', class_="list-iTt_Zp4a")
+    div_list = soup.find('div', class_="grid-iTt_Zp4a")
     
     if div_list is None:
         print("Haber listesi bulunamadı.")
@@ -101,6 +102,22 @@ def save_news_content(content, date_file_name, news_distributor):
             return True
 
 
+def parse_news_datetime(datetime_str):
+    """Parses datetime string from TradingView, handles both old and new formats"""
+    # Yeni format: ISO 8601 (örn: 2026-02-12T19:00:00.000Z)
+    for fmt in [
+        "%Y-%m-%dT%H:%M:%S.%fZ",
+        "%Y-%m-%dT%H:%M:%SZ",
+        "%Y-%m-%dT%H:%M:%S",
+        "%a, %d %b %Y %H:%M:%S %Z",  # Eski format
+    ]:
+        try:
+            return datetime.strptime(datetime_str, fmt)
+        except ValueError:
+            continue
+    raise ValueError(f"Tarih formatı tanınamadı: {datetime_str}")
+
+
 def content_extractor(anchor_list):
     """Extracts content from each anchor link"""
     service = Service(CHROMEDRIVER_PATH)
@@ -116,21 +133,29 @@ def content_extractor(anchor_list):
     
     extracted_count = 0
     
-    for link in anchor_list:
+    total = len(anchor_list)
+    
+    for idx, link in enumerate(anchor_list, 1):
+        print(f"[{idx}/{total}] Haber okunuyor: {link}")
         driver = webdriver.Chrome(service=service, options=chrome_options)
 
         try:
             driver.get(link)
-            driver.implicitly_wait(1)
+            driver.implicitly_wait(3)
 
-            # Elements depends on website, it may change in time, need to be controlled
-            title = driver.find_element(By.CLASS_NAME, "title-KX2tCBZq").text
-            content = driver.find_element(By.XPATH, "//div[@class='body-KX2tCBZq body-pIO_GYwT content-pIO_GYwT body-RYg5Gq3E']").text
+            # CSS class hash'leri TradingView deploy'larında değişebilir,
+            # bu yüzden partial match (CSS_SELECTOR) kullanıyoruz
+            title_el = driver.find_element(By.CSS_SELECTOR, "div[class*='title-'][class*='block-']")
+            title = title_el.text
+
+            # Body elementi: body- ve content- class'larını içeren div
+            content_el = driver.find_element(By.CSS_SELECTOR, "div[class*='body-'][class*='content-']")
+            content = content_el.text
 
             content = title + "\n" + content
 
             time_element = driver.find_element(By.CSS_SELECTOR, "time").get_attribute("datetime")
-            dt_object = datetime.strptime(time_element, "%a, %d %b %Y %H:%M:%S %Z")
+            dt_object = parse_news_datetime(time_element)
             day = str(dt_object.day).zfill(2)
             month = str(dt_object.month).zfill(2)
             year = str(dt_object.year).zfill(4)
@@ -147,20 +172,75 @@ def content_extractor(anchor_list):
             
             if save_news_content(content, date_file_name, news_distributor):
                 extracted_count += 1
+                print(f"  ✅ Başlık: {title[:80]}")
+            else:
+                print(f"  ⏭️  Zaten mevcut, atlandı.")
 
         except NoSuchElementException:
-            print(f"Haber çekilemedi: {link}")
+            print(f"  ❌ Haber çekilemedi: {link}")
 
         finally:
             driver.quit()
     
+    print(f"\n{'='*50}")
+    print(f"Toplam {total} haberden {extracted_count} tanesi yeni olarak kaydedildi.")
+    print(f"{'='*50}")
     return extracted_count
+
+
+def fetch_news_page():
+    """
+    TradingView haber sayfasını Selenium ile açar ve content.txt'ye kaydeder.
+    DAG'ın ilk adımı olarak çalışır.
+    """
+    print("TradingView haber sayfası çekiliyor...")
+    
+    service = Service(CHROMEDRIVER_PATH)
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--window-size=1920,1080")
+    
+    if CHROME_BIN:
+        chrome_options.binary_location = CHROME_BIN
+    
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+    
+    try:
+        driver.get("https://tr.tradingview.com/news/")
+        driver.implicitly_wait(5)
+        
+        # Sayfayı aşağı kaydırarak daha fazla haber yükle
+        for i in range(3):
+            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            time.sleep(2)
+            print(f"  Sayfa kaydırıldı ({i+1}/3)")
+        
+        page_source = driver.page_source
+        
+        content_path = get_content_file_path()
+        os.makedirs(os.path.dirname(content_path), exist_ok=True)
+        
+        with open(content_path, "w", encoding="utf-8") as f:
+            f.write(page_source)
+        
+        print(f"✅ Haber sayfası kaydedildi: {content_path}")
+        print(f"   Dosya boyutu: {len(page_source)} karakter")
+        return {"status": "success", "file": content_path}
+        
+    except Exception as e:
+        print(f"❌ Haber sayfası çekilemedi: {e}")
+        raise
+    finally:
+        driver.quit()
 
 
 def scrape_bist_news():
     """
-    Main function to scrape BIST news.
-    This is the entry point for Airflow DAG.
+    Haber içeriklerini çeker. DAG'ın ikinci adımı.
+    fetch_news_page() çalıştıktan sonra güncel content.txt'den okur.
     """
     print("BIST haber çekme işlemi başlıyor...")
     
@@ -181,4 +261,5 @@ def scrape_bist_news():
 
 # Script olarak çalıştırıldığında
 if __name__ == "__main__":
+    fetch_news_page()
     scrape_bist_news()
