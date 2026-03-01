@@ -290,6 +290,7 @@ def content_extractor(news_items):
     session.headers.update(html_headers)
 
     extracted_count = 0
+    extracted_news = []
     total = len(news_items)
 
     for idx, item in enumerate(news_items, 1):
@@ -318,6 +319,7 @@ def content_extractor(news_items):
         if LEGAL_DISCLAIMER in content:
             content = content.replace(LEGAL_DISCLAIMER, "")
 
+        pure_content = content
         content += "\n"
         content += "_" * 50
         content += "\n"
@@ -332,6 +334,7 @@ def content_extractor(news_items):
                 news_distributor = provider_clean
 
         if save_news_content(content, date_file_name, news_distributor):
+            extracted_news.append({"date": date_file_name, "content": pure_content})
             extracted_count += 1
             print(f"  ✅ Kaydedildi: {news_distributor}/{date_file_name}")
         else:
@@ -344,7 +347,7 @@ def content_extractor(news_items):
     print(f"\n{'='*50}")
     print(f"Toplam {total} haberden {extracted_count} tanesi yeni olarak kaydedildi.")
     print(f"{'='*50}")
-    return extracted_count
+    return extracted_count, extracted_news
 
 
 def fetch_news_page():
@@ -381,11 +384,15 @@ def scrape_bist_news():
 
     print(f"{len(news_items)} adet haber kartı bulundu.")
 
-    extracted_count = content_extractor(news_items)
+    extracted_count, extracted_news = content_extractor(news_items)
 
     print(f"Toplam {extracted_count} haber çekildi.")
 
-    return {"status": "success", "count": extracted_count}
+    return {
+        "status": "success", 
+        "count": extracted_count,
+        "extracted_news": extracted_news
+    }
 
 
 def full_pipeline():
