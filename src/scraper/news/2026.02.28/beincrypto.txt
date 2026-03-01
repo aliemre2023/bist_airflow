@@ -1,0 +1,36 @@
+Arbitrum fiyatı baskı altında: 60 milyon ARB’lik balina satışı ATL endişesi yaratıyor
+ARBUSD
+ARBUSDT
+Arbitrum fiyatı zayıflamaya devam ediyor çünkü ARB, yatırımcı talebini istikrarlı bir şekilde çekmekte zorlanıyor. Token, genel kripto para piyasasındaki toparlanmalara ayak uyduramadı. Aksine, uzun süredir düşen trend baskısıyla tüm zamanların en düşük seviyesine tehlikeli derecede yaklaştı.
+Yatırımcı desteği zaman zaman görülen kısa vadeli yükselişlere rağmen oldukça sınırlı görünüyor. Piyasadaki toparlanmalar ARB’ye kalıcı bir kazanç getirmedi. Bu ayrışma, Arbitrum ekosisteminde farklı yatırımcı gruplarında kararlılığın zayıfladığını gösteriyor.
+Arbitrum’da Volatiliteye Hakim Olan Yatırımcılar Önde
+Chaikin Money Flow göstergesi sıfır çizgisinin altına gerileyerek net sermaye çıkışına işaret etti. Bu okuma, sağlıklı bir birikimden ziyade kalıcı satış baskısının devam ettiğini gösteriyor. Zayıf girişler mevcut fiyat seviyelerinde alıcıların güven eksikliği yaşadığının bir göstergesi.
+ARB döngünün başlarında yeni bir tüm zamanların en yüksek seviyesi (ATH) oluşturduktan sonra kısa süreli bir yükseliş yaşadı. Bu hareketin büyük bölümü dipten alımlar sayesinde geldi. Ancak kısa vadeli yatırımcılar hızlıca satış yaparak yükselişi frenledi. Bu hızlı dağıtım, yukarı yönlü ivmeyi zayıflatıp aşağı yönlü volatiliteyi artırdı.
+Böyle zincir üstü analizleri ve token içgörülerini daha sık görmek ister misiniz? Editör Harsh Notariya’nın günlük kripto bültenine buradan abone olabilirsiniz.
+MVRV Long/Short Difference metriği, kısa vadeli yatırımcıların şu anda gerçekleşen karların çoğunu topladığını gösteriyor. Bu dengesizlik Arbitrum fiyatında kırılganlık oluşturuyor. Çünkü kısa vadeli yatırımcılar, kâr gördükleri an hızlıca pozisyon terketme eğiliminde.
+Bu davranış, ani bir düzeltme riskini artırıyor. Bugünkü %8’lik düşüş de bu dinamiğin bir sonucu. Kısa vadeli yatırımcılardan gelen kar alımlarının artmasıyla fiyat ani şekilde sarkabiliyor. Uzun vadeli yatırımcıların kararlılığı güçlenene kadar ARB, sert düşüşlere açık şekilde yoluna devam ediyor.
+ARB balina’ları da frene basmıyor
+Balina hareketleri de genel görünümü olumsuz etkiliyor. Son üç haftada 1 milyon ile 10 milyon ARB arasında bakiyesi olan adresler, toplamda 60 milyon’dan fazla token sattı. Bu dağıtım telaşlı bir şekilde değil, adım adım gerçekleşti.
+Yavaş ve düzenli balina satışları genelde güvenin azaldığına işarettir. Duygusal bir panik satışından farklı olarak, istikrarlı dağıtımlar, toparlanma çabalarını baltalayabilir. Sürekli piyasaya yeni arzın girmesi yakın vadede güçlü bir sıçrama ihtimalini azaltıyor.
+ARB fiyatı yeni bir tüm zamanların en düşük seviyesine (ATL) geriledi
+Arbitrum fiyatı bugün %8 değer kaybederek yazı hazırlandığı sırada 0,0921 dolar seviyesinde işlem görüyor. ARB, 0,0994 dolar destek seviyesini koruyamadı. Bu kırılım satışları tetikleyerek aşağı yönlü baskıyı hızlandırdı.
+Sıradaki destek noktası 0,0887 dolar’da, tüm zamanların en düşük seviyesi olan 0,0883 dolar’ın hemen üzerinde bulunuyor. Mevcut göstergeler ışığında bu seviyelerin yeniden test edilmesi yüksek ihtimal. Bu tabanın altında net bir kırılım gelirse ARB’nin 0,0821 dolar’a kadar geri çekilerek yeni bir dip yapma süreci başlayabilir.
+Bu düşüş senaryosunu geçersiz kılmak için yatırımcı hissiyatında köklü bir değişim şart. Yatırımcıların satış temposunu yavaşlatıp piyasaya yeni fon akışını başlatması gerekiyor. ARB’nin yeniden 0,0947 dolar’ı kazanması kısa vadeli ivme için kritik önem taşıyor. 0,0994 dolar’ın tekrar destek olarak kazanılması ise 0,1060 dolar yolunu açar ve toparlanma sinyali oluşturur.
+__________________________________________________
+Ethereum Holder’ların Elde Tutma Oranı 4 Yılın Dibinden Toparlandı
+ETHUSD
+Ethereum fiyatı, son dönemde istikrardan çok yavaş bir düşüşü andıran yatay bir yapı sergiliyor. ETH, kalıcı bir yükseliş ivmesi yakalamakta zorlanıyor. Yeni katılımcıların piyasadan çekilmesi yatırımcı hissiyatını olumsuz etkiliyor. Buna rağmen, bazı uzun vadeli zincir üstü metrikler toparlanma sinyalleri vermeye başladı.
+Bu ayrışma Ethereum için karmaşık bir tablo yaratıyor. Ağ büyümesi zayıflasa da, elde tutan yatırımcı sayısındaki iyileşme bu zayıflığı bir ölçüde dengeliyor.
+Ethereum’da Yeni Holder Sayısı Düşüşte
+Ethereum’da yeni adres sayısında son birkaç günde sert bir düşüş yaşandı. Günlük yeni adres sayısı yalnızca 48 saatte yaklaşık %36 oranında geriledi; 298.000 seviyesinden 191.000’e düştü. Bu daralma Ethereum’un Ağ Büyümesi metriğini iki ayın en düşük seviyesine çekti.
+Bu durgunluk ay başından beri sürüyor. Yeni katılımcıların azalması, piyasadaki doğal talebin düşmesine yol açıyor. Zayıf onboarding süreci ise bireysel yatırımcıların tereddüt içinde olduğunu gösteriyor. Tüm bu gelişmeler ETH fiyat performansına baskı yapmaya devam ediyor ve temkinli bir piyasa hissiyatının güçlenmesine neden oluyor.
+Buna benzer daha fazla token analizi ister misiniz? Editör Harsh Notariya’nın Günlük Kripto Bülteni’ne buradan ücretsiz kaydolabilirsiniz.
+Ethereum Holder Retention Rate metriği, yeni adres sayısı azalsa da elde tutanların kararlılıkla pozisyonunu koruduğunu gösteriyor. Bu istatistik, üst üste iki 30 günlük dönemde ETH bakiyesini koruyan adreslerin yüzdesini takip ediyor. Yani yatırımcılar ETH elde tutmaya devam ediyor mu, yoksa çıkış mı yapıyor, bunun cevabını arıyor.
+Bu oran yakın zamanda %92,4’e gerileyerek son 4,5 yılın ve eylül 2021’den bu yana en düşük seviyesine indi. Bu düşüş, yeni yatırımcılar arasında kararlılığın daha düşük olduğunu ortaya koyuyor.
+Ancak metrikte son günlerde hafif bir iyileşme gözlemleniyor, bu da topluluğun bir miktar istikrara kavuştuğuna işaret ediyor. Oranın artışı devam ederse ETH için sağlam bir yapısal destek oluşabilir.
+ETH fiyatı toparlanma sinyalleri veriyor
+Ethereum bu yazı yazılırken 1.904 dolar seviyesinde işlem görüyor ve 1.816 dolar destek seviyesinin üzerinde tutunmayı başarıyor. Fiyat hareketi yatay gözükse de, aşağı yönlü bir direnç çizgisi yavaş bir düşüş eğilimini işaret ediyor. Güçlü bir talep sağlanamadığı sürece ETH, zayıf seyretmeye devam edebilir.
+Chaikin Money Flow göstergesi ise temkinli bir iyimserlik sunuyor. CMF, kademeli bir yükselişin ardından pozitif bölgeye geçti. Bu hareket sermaye girişlerindeki iyileşmeye işaret ediyor. Düşüşten çıkışa dönüş, sürdürülebilir bir Ethereum fiyat toparlanması için şart.
+Eğer girişler sürerse ve destek korunursa Ethereum 1.816 dolardan tekrar yükselebilir ve 2.165 dolara doğru bir hamle deneyebilir. Bu direnç seviyesi aşılırsa mevcut düşüş trendi geçersiz hale gelir. Böyle bir dönüş hareketi yatırımcı güvenini tazeler ve yükseliş yönlü ivmeyi güçlendirir.
+Ancak sermaye akışı pozitif kalmaya devam etmezse bu senaryo sekteye uğrar. 1.816 dolar seviyesi aşağı yönlü kırılırsa toparlanma tezi geçersiz olur. O durumda Ethereum fiyatı 1.600 dolara kadar gevşeyebilir. Bu da düşüş riskini artırır ve genel kripto para piyasasında ayıların kontrolü ele almasına neden olur.
+__________________________________________________
