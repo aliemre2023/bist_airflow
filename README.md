@@ -1,6 +1,6 @@
-# BIST100 Airflow Trading Bot
+# BIST Airflow Trading Bot
 
-An experimental, fully automated daily trading pipeline for BIST100 stocks.  
+An experimental, fully automated daily trading pipeline for BIST stocks.  
 It scrapes financial news, matches them to companies, runs Turkish sentiment analysis, and executes buy/sell decisions — all orchestrated by Apache Airflow.
 
 ---
@@ -12,7 +12,7 @@ TradingView News API
         ↓
    News Scraper (v3)
         ↓
-  Company Matcher  ←── BIST100 company list (KAP)
+  Company Matcher  ←── BIST company list (KAP)
         ↓
 Sentiment Analyzer  ←── Fine-tuned BERTurk model
         ↓
@@ -23,7 +23,7 @@ Sentiment Analyzer  ←── Fine-tuned BERTurk model
 
 Every day at midnight, the Airflow DAG:
 1. Fetches latest Turkish financial news from TradingView
-2. Matches each article to BIST100 tickers using exact + Jaro-Winkler fuzzy matching
+2. Matches each article to BIST tickers using exact + Jaro-Winkler fuzzy matching
 3. Scores sentiment per article (`-2` strong sell → `+2` strong buy)
 4. Executes trades via a virtual wallet (persisted in `wallet.json`)
 
@@ -68,7 +68,7 @@ Fetches news from the TradingView headlines API (`news-headlines.tradingview.com
 | **v3** | **TradingView JSON API (current)** |
 
 ### Matcher
-Matches article content to BIST100 company tickers.
+Matches article content to BIST company tickers.
 - Company list sourced from [KAP](https://www.kap.org.tr/tr/bist-sirketler)
 - Exact ticker regex match + Jaro-Winkler based fuzzy name matching
 
@@ -108,7 +108,7 @@ Virtual wallet with JSON persistence (`src/workspace/wallet.json`).
 dags/               # Airflow DAG definition
 src/
   scraper/          # News scraper (v1, v2, v3)
-  matcher/          # Company matcher + BIST100 data
+  matcher/          # Company matcher + BIST data
   sentimenter/      # Sentiment analyzer + fine-tune notebook
   stockbroker/      # Wallet + trade logic
   models/           # Local model cache (auto-downloaded if missing)
