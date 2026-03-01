@@ -106,6 +106,6 @@ with DAG(
 ) as dag:
 
     pipeline_task = PythonOperator(
-        task_id='fetch_and_scrape',
+        task_id='trading_v1',
         python_callable=full_pipeline
     )

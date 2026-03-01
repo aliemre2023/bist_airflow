@@ -1817,3 +1817,507 @@ Açıklamalar
 Açıklama
 Şirketimizin 01.01.2025– 31.12.2025 dönemine ilişkin finansal sonuç sunumu Şirketimiz internet sitesinde (www.vestelinternational.com) yatırımcılarımızın bilgisine sunulmaktadır.
 __________________________________________________
+KAP: LMKDC  [ ] LİMAK DOĞU ANADOLU ÇİMENTO SANAYİ VE TİCARET A.Ş.  Katılım Finansı İlkeleri Bilgi Formu
+LMKDC
+Orjinal Link:
+https://www.kap.org.tr/Bildirim/1563306
+KATILIM FİNANSI İLKELERİ BİLGİ FORMU
+ÖZET BİLGİLER
+Sunum Para Birimi
+TL
+Verilerin Ait Olduğu Finansal Tablo Yılı / Dönemi
+2025 / Yıllık
+Finansal Tablo Niteliği
+Konsolide Olmayan
+1) Şirketin kendisi, tüzel kişi ortakları veya iştiraklerinin esas sözleşmesinde yer alan faaliyet alanları arasında Katılım Finansı İlkelerine uygun olmayan faaliyet yer alıyor mu?
+HAYIR
+2) Şirket esas sözleşmesinde Katılım Finansı İlkelerine uygun olmayan imtiyaz bulunuyor mu?
+HAYIR
+3) Şirketin Standart madde 1.5 ve Rehber madde 1.D'de tanımlanan eylemleri desteklediğine ilişkin bir açıklama ve/veya karar bulunuyor mu?
+HAYIR
+4) Şirketin doğrudan Katılım Finansı İlkelerine aykırı kabul edilen faaliyetleri ve/veya geliri bulunuyor mu?
+HAYIR
+5) Şirketin Katılım Finansı İlkelerine Uygun Olmayan Gelirlerinin Oranı (%) [ (4B+4C-4D) / 4E ] * 100
+4,04
+6) Şirketin Katılım Finansı İlkelerine Uygun Olmayan Varlıklarının Oranı (%) [ 5F-5G) / 5H ] * 100
+19,04
+7) Şirketin Katılım Finansı İlkelerine Uygun Olmayan Borçlarının Oranı (%) [ (6I-6J) / 5H ] * 100
+0
+1) Katılım Finansı İlkelerine Uygun Olmayan Faaliyetlere İlişkin Esas Sözleşme Bilgileri
+EVET / HAYIR
+İLGİLİ ESAS SÖZLEŞME MADDESİNİN NUMARASI
+1) Şirketin kendisinin, tüzel kişi ortaklarının veya iştiraklerinin esas sözleşmelerinde Standart madde 1.2'de sayılan faaliyetlerden herhangi birinin yapılabileceği yazıyor mu?
+HAYIR
+2) Şirketin kendisinin, tüzel kişi ortaklarının veya iştiraklerinin esas sözleşmelerinde, faaliyetleri arasında Standart madde 1.2'de sayılan faaliyetlerden herhangi biri olan şirketlere ortak olunabileceği yazıyor mu?
+HAYIR
+2)	İmtiyazlı Pay ve İntifa Senedi Bilgileri
+EVET / HAYIR
+İLGİLİ ESAS SÖZLEŞME MADDESİNİN NUMARASI
+1) Şirketin pay grupları arasında veya varsa intifa senetlerinde kâr payı imtiyazı bulunuyor mu?
+HAYIR
+2) Şirketin pay grupları arasında veya varsa intifa senetlerinde tasfiye payı imtiyazı bulunuyor mu?
+HAYIR
+3) Standart Madde 1.5 ve Rehber Madde 1.D'ye İlişkin Beyan
+EVET / HAYIR
+AÇIKLAMA
+1) Şirketin, Standart madde 1.5 ve Rehber madde 1.D'de tanımlanan eylemleri desteklediğine ilişkin olarak şirket yetkili organ veya yetkilileri aracılığıyla kamuoyuna yapılmış bir açıklama bulunuyor mu?
+HAYIR
+2) Şirketin, Standart madde 1.5 ve Rehber madde 1.D'de tanımlanan eylemleri desteklediğine ilişkin olarak kamu kurumları veya ulusal ya da uluslararası mahkemelerce alınmış herhangi bir karar bulunuyor mu?
+HAYIR
+4) Katılım Finansı İlkelerine Uygun Olmayan Gelirler
+A) REHBER MADDE 3.1 UYARINCA ŞİRKETİ DOĞRUDAN KATILIM FİNANSI İLKELERİNE AYKIRI HALE GETİREN FAALİYETLER
+EVET / HAYIR
+1) Şirketin kendisinin, tüzel kişi ortaklarının veya iştiraklerinin, Rehber madde 3.1.1 kapsamına girecek şekilde alkollü içki/gıda üretim ve ticaretine yönelik faaliyeti ve/veya geliri bulunuyor mu?
+HAYIR
+2) Şirketin kendisinin, tüzel kişi ortaklarının veya iştiraklerinin, Rehber madde 3.1.2 kapsamına girecek şekilde domuz mamullerinin üretim ve ticaretine yönelik faaliyeti ve/veya geliri bulunuyor mu?
+HAYIR
+3) Şirketin kendisinin, tüzel kişi ortaklarının veya iştiraklerinin, Rehber madde 3.1.3 kapsamına girecek şekilde içime yönelik tütün mamulleri üretim ve toptan ticaretine yönelik faaliyeti ve/veya geliri bulunuyor mu?
+HAYIR
+4) Şirketin kendisinin, tüzel kişi ortaklarının veya iştiraklerinin, Rehber madde 3.1.4 kapsamına girecek şekilde kumar veya kumar hükmünde faaliyeti ve/veya geliri bulunuyor mu?
+HAYIR
+5) Şirketin kendisinin, tüzel kişi ortaklarının veya iştiraklerinin katılım esaslı olanlar hariç finans sektörü faaliyeti ve/veya geliri bulunuyor mu?
+HAYIR
+6) Şirketin kendisinin, tüzel kişi ortaklarının veya iştiraklerinin, Rehber madde 3.1.5 kapsamına girecek şekilde ahlaka ve islami değerlere aykırı yayıncılık faaliyeti ve/veya geliri bulunuyor mu?
+HAYIR
+7) Şirketin kendisinin, tüzel kişi ortaklarının veya iştiraklerinin, Rehber madde 3.1.6 kapsamına girecek şekilde islami değerlerle bağdaşmayan otel işletmeciliği, turizm sektörü faaliyetleri, çeşitli eğlence ve organizasyon faaliyetleri ve/veya geliri bulunuyor mu?
+HAYIR
+B) KATILIM FİNANSI İLKELERİNE UYGUN OLMAYAN ANCAK REHBER MADDE 3.2 UYARINCA %5'E KADAR İZİN VERİLEN FAALİYETLERDEN ELDE EDİLEN GELİRLER
+KALEM ADI
+TUTAR
+TL
+2025 / Yıllık
+Konsolide Olmayan
+1) Rehber madde 3.2.2 kapsamına girecek şekilde, sağlığa zararlı tütün ürünlerinin perakende satışı ve sunumundan elde edilen gelirlerin toplamı
+0
+2) Rehber madde 3.2.3 kapsamına girecek şekilde, katılım finansı ilkelerine uygun faaliyet göstermeyen şirketlere sunulan iş ve hizmetlerden elde edilen gelirlerin toplamı
+0
+3) Rehber madde 3.2.4 kapsamına girecek şekilde, katılım finansı ilkelerine uygun faaliyet göstermeyen şirketlerden elde edilen kira gelirlerinin toplamı
+0
+4) Rehber madde 3.2.5 kapsamına girecek şekilde, reklam, marka, sponsorluk ve aracılık faaliyetlerinden elde edilen gelirlerin toplamı
+0
+TOPLAM
+0
+C) İLGİLİ FİNANSAL TABLO KALEMLERİ
+KALEM ADI
+TUTAR
+TL
+2025 / Yıllık
+Konsolide Olmayan
+1) Esas Faaliyetlerden Diğer Gelirler
+126.807.625
+2) Finansman Gelirleri
+590.450.892
+3) Yatırım Faaliyetlerinden Gelirler
+0
+4) Finans Sektörü Faaliyetleri Hasılatı
+0
+5) Özkaynak Yöntemiyle Değerlenen Yatırımların Karlarından (Zararlarından) Paylar
+0
+TOPLAM
+717.258.517
+D) C TABLOSUNDA SAYILAN FİNANSAL TABLO KALEMLERİNİN İÇİNDE YER ALAN VE KATILIM FİNANSI İLKELERİNE UYGUN OLDUĞU VARSAYILAN GELİRLER
+KALEM ADI
+TUTAR
+TL
+2025 / Yıllık
+Konsolide Olmayan
+1) Fiyat farkı gelirleri (C tablosunda sayılan kalemlerde muhasebeleştirilmiş kısmı)
+0
+2) Kur farkı gelirleri (C tablosunda sayılan kalemlerde muhasebeleştirilmiş kısmı)
+247.076.423
+3) Vade farkı gelirleri (C tablosunda sayılan kalemlerde muhasebeleştirilmiş kısmı)
+67.142.067
+4) Kur Korumalı Katılım hesapları dahil katılım esaslı kıymetlerden ve fonlardan elde edilen gelirler
+0
+5) SGK prim gelirleri
+0
+6) Katılım bankalarından alınan promosyon gelirleri
+0
+7) Müşteri peşinatları irad kaydı (C tablosunda sayılan kalemlerde muhasebeleştirilmiş kısmı)
+0
+8) Konusu kalmayan karşılıklar
+1.109.080
+9) Hizmet gelirleri (C tablosunda sayılan kalemlerde muhasebeleştirilmiş kısmı)
+0
+10) Kira ve bakım onarım gelirleri (C tablosunda sayılan kalemlerde muhasebeleştirilmiş kısmı)
+0
+11) Ardiye gelirleri (C tablosunda sayılan kalemlerde muhasebeleştirilmiş kısmı)
+0
+12) Tazminat ve gecikme ceza gelirleri
+0
+13) Sigorta hasar tazminat gelirleri
+0
+14) Dava gelirleri
+0
+15) Katılım Finansı İlkelerine uygun faaliyet gösteren şirketlerden elde edilen temettü gelirleri
+0
+16) Yukarıdaki kalemlerde yer verilmeyen ancak Katılım Finansı İlkelerine uygun sayılan diğer gelirlerin toplamı (C tablosunda sayılan kalemlerde muhasebeleştirilmiş kısmı)
+20.006.384
+TOPLAM
+335.333.954
+Yukarıdaki 16 numaralı madde için açıklama
+Hurda satış karları ve diğer
+E) TOPLAM GELİRLER
+KALEM ADI
+TUTAR
+TL
+2025 / Yıllık
+Konsolide Olmayan
+1) Hasılat
+8.726.196.166
+2) Esas Faaliyetlerden Diğer Gelirler
+126.807.625
+3) Finansman Gelirleri
+590.450.892
+4) Yatırım Faaliyetlerinden Gelirler
+0
+5) Finans Sektörü Faaliyetleri Hasılatı
+0
+6) Özkaynak Yöntemiyle Değerlenen Yatırımların Karlarından Paylar
+0
+TOPLAM
+9.443.454.683
+5)	Katılım Finansı İlkelerine Uygun Olmayan Varlıklar (F-G)
+F) İLGİLİ FİNANSAL TABLO KALEMLERİ
+KALEM ADI
+TUTAR
+TL
+2025 / Yıllık
+Konsolide Olmayan
+1) Nakit ve Nakit Benzerleri
+2.460.473.002
+2) Finansal Yatırımlar (Dönen ve Duran Varlıklarda Sınıflandırılanların Toplamı)
+0
+3) Türev Araçlar (Dönen ve  Duran Varlıklarda Sınıflandırılanların Toplamı)
+0
+4) Finans Sektörü Faaliyetlerinden Alacaklar (Dönen ve Duran Varlıklarda Sınıflandırılanların Toplamı)
+0
+5) Özkaynak Yöntemiyle Değerlenen Yatırımlar
+0
+6) İştirakler, İş Ortaklıkları ve Bağlı Ortaklıklardaki Yatırımlar
+0
+TOPLAM
+2.460.473.002
+G) F TABLOSUNDA SAYILAN FİNANSAL TABLO KALEMLERİNİN İÇİNDE YER ALAN VE KATILIM FİNANSI İLKELERİNE UYGUN OLDUĞU VARSAYILAN VARLIKLAR
+KALEM ADI
+TUTAR
+TL
+2025 / Yıllık
+Konsolide Olmayan
+1) Çekler
+0
+2) Kasa
+0
+3) Vadesiz mevduat hesapları
+614.222.694
+4) Katılım esaslı yatırım araçlarındaki (kira sertifikası, sukuk, kur korumalı dahil katılım bankalarında tutulan hesaplar) tutarlar
+0
+5) Katılım Finansı İlkelerine uygun faaliyet gösteren iştirakler ve bağlı ortaklıklardaki şirket payları
+0
+6) Kredi kartı alacakları
+1.098.176
+7) Yukarıdaki kalemlerde yer verilmeyen ancak Katılım Finansı İlkelerine uygun sayılan diğer varlıkların toplamı (F tablosunda sayılan mali tablo kalemlerinde muhasebeleştirilmiş kısmı)
+0
+TOPLAM
+615.320.870
+Yukarıdaki 7 numaralı madde için açıklama
+H) TOPLAM VARLIKLAR
+KALEM ADI
+TUTAR
+TL
+2025 / Yıllık
+Konsolide Olmayan
+Toplam Varlıklar
+9.691.505.564
+6)	Katılım Finansı İlkelerine Uygun Olmayan Borçlar (I-J)
+I) İLGİLİ FİNANSAL TABLO KALEMLERİ
+KALEM ADI
+TUTAR
+TL
+2025 / Yıllık
+Konsolide Olmayan
+1) Kısa Vadeli Borçlanmalar
+0
+2) Uzun Vadeli Borçlanmaların Kısa Vadeli Kısımları
+84.777.527
+3) Uzun Vadeli Borçlanmalar
+83.620.364
+4) Türev Araçlar   (Kısa ve Uzun Vadeli Yükümlülüklerde Sınıflandırılanların Toplamı)
+0
+5) Finans Sektörü Faaliyetlerinden Borçlar (Kısa ve Uzun Vadeli Yükümlülüklerde Sınıflandırılanların Toplamı)
+0
+6) Diğer Borçlar  (Kısa ve Uzun Vadeli Yükümlülüklerde Sınıflandırılanların Toplamı)
+372.795.831
+TOPLAM
+541.193.722
+J) I TABLOSUNDA SAYILAN FİNANSAL TABLO KALEMLERİNİN İÇİNDE YER ALAN VE KATILIM FİNANSI İLKELERİNE UYGUN OLDUĞU VARSAYILAN BORÇLAR
+KALEM ADI
+TUTAR
+TL
+2025 / Yıllık
+Konsolide Olmayan
+1) Kiralama işlemlerinden borçlar (Kısa ve Uzun Vadeli Yükümlülüklerde Sınıflandırılanların Toplamı)
+168.397.891
+2) Katılım bankalarından alınmış krediler
+0
+3) Kira sertifikası, sukuk vb. faizsiz finansal araçlarda yapılmış ihraçlar
+0
+4) Yukarıdaki kalemlerde yer verilmeyen ancak Katılım Finansı İlkelerine uygun sayılan diğer borçların toplamı (I tablosunda sayılan mali tablo kalemlerinde muhasebeleştirilmiş kısmı)
+372.795.831
+TOPLAM
+541.193.722
+Yukarıdaki 4 numaralı madde için açıklama
+Maddi duran varlık alımlarına ilişkin borçlar, ödenecek vergi ve fonlar ve alınan depozito ve teminatları içermektedir.
+__________________________________________________
+KAP: LMKDC  [ ] LİMAK DOĞU ANADOLU ÇİMENTO SANAYİ VE TİCARET A.Ş.  Katılım Finansı İlkeleri Bilgi Formu
+LMKDC
+Orjinal Link:
+https://www.kap.org.tr/Bildirim/1563306
+KATILIM FİNANSI İLKELERİ BİLGİ FORMU
+ÖZET BİLGİLER
+Sunum Para Birimi
+TL
+Verilerin Ait Olduğu Finansal Tablo Yılı / Dönemi
+2025 / Yıllık
+Finansal Tablo Niteliği
+Konsolide Olmayan
+1) Şirketin kendisi, tüzel kişi ortakları veya iştiraklerinin esas sözleşmesinde yer alan faaliyet alanları arasında Katılım Finansı İlkelerine uygun olmayan faaliyet yer alıyor mu?
+HAYIR
+2) Şirket esas sözleşmesinde Katılım Finansı İlkelerine uygun olmayan imtiyaz bulunuyor mu?
+HAYIR
+3) Şirketin Standart madde 1.5 ve Rehber madde 1.D'de tanımlanan eylemleri desteklediğine ilişkin bir açıklama ve/veya karar bulunuyor mu?
+HAYIR
+4) Şirketin doğrudan Katılım Finansı İlkelerine aykırı kabul edilen faaliyetleri ve/veya geliri bulunuyor mu?
+HAYIR
+5) Şirketin Katılım Finansı İlkelerine Uygun Olmayan Gelirlerinin Oranı (%) [ (4B+4C-4D) / 4E ] * 100
+4,04
+6) Şirketin Katılım Finansı İlkelerine Uygun Olmayan Varlıklarının Oranı (%) [ 5F-5G) / 5H ] * 100
+19,04
+7) Şirketin Katılım Finansı İlkelerine Uygun Olmayan Borçlarının Oranı (%) [ (6I-6J) / 5H ] * 100
+0
+1) Katılım Finansı İlkelerine Uygun Olmayan Faaliyetlere İlişkin Esas Sözleşme Bilgileri
+EVET / HAYIR
+İLGİLİ ESAS SÖZLEŞME MADDESİNİN NUMARASI
+1) Şirketin kendisinin, tüzel kişi ortaklarının veya iştiraklerinin esas sözleşmelerinde Standart madde 1.2'de sayılan faaliyetlerden herhangi birinin yapılabileceği yazıyor mu?
+HAYIR
+2) Şirketin kendisinin, tüzel kişi ortaklarının veya iştiraklerinin esas sözleşmelerinde, faaliyetleri arasında Standart madde 1.2'de sayılan faaliyetlerden herhangi biri olan şirketlere ortak olunabileceği yazıyor mu?
+HAYIR
+2)	İmtiyazlı Pay ve İntifa Senedi Bilgileri
+EVET / HAYIR
+İLGİLİ ESAS SÖZLEŞME MADDESİNİN NUMARASI
+1) Şirketin pay grupları arasında veya varsa intifa senetlerinde kâr payı imtiyazı bulunuyor mu?
+HAYIR
+2) Şirketin pay grupları arasında veya varsa intifa senetlerinde tasfiye payı imtiyazı bulunuyor mu?
+HAYIR
+3) Standart Madde 1.5 ve Rehber Madde 1.D'ye İlişkin Beyan
+EVET / HAYIR
+AÇIKLAMA
+1) Şirketin, Standart madde 1.5 ve Rehber madde 1.D'de tanımlanan eylemleri desteklediğine ilişkin olarak şirket yetkili organ veya yetkilileri aracılığıyla kamuoyuna yapılmış bir açıklama bulunuyor mu?
+HAYIR
+2) Şirketin, Standart madde 1.5 ve Rehber madde 1.D'de tanımlanan eylemleri desteklediğine ilişkin olarak kamu kurumları veya ulusal ya da uluslararası mahkemelerce alınmış herhangi bir karar bulunuyor mu?
+HAYIR
+4) Katılım Finansı İlkelerine Uygun Olmayan Gelirler
+A) REHBER MADDE 3.1 UYARINCA ŞİRKETİ DOĞRUDAN KATILIM FİNANSI İLKELERİNE AYKIRI HALE GETİREN FAALİYETLER
+EVET / HAYIR
+1) Şirketin kendisinin, tüzel kişi ortaklarının veya iştiraklerinin, Rehber madde 3.1.1 kapsamına girecek şekilde alkollü içki/gıda üretim ve ticaretine yönelik faaliyeti ve/veya geliri bulunuyor mu?
+HAYIR
+2) Şirketin kendisinin, tüzel kişi ortaklarının veya iştiraklerinin, Rehber madde 3.1.2 kapsamına girecek şekilde domuz mamullerinin üretim ve ticaretine yönelik faaliyeti ve/veya geliri bulunuyor mu?
+HAYIR
+3) Şirketin kendisinin, tüzel kişi ortaklarının veya iştiraklerinin, Rehber madde 3.1.3 kapsamına girecek şekilde içime yönelik tütün mamulleri üretim ve toptan ticaretine yönelik faaliyeti ve/veya geliri bulunuyor mu?
+HAYIR
+4) Şirketin kendisinin, tüzel kişi ortaklarının veya iştiraklerinin, Rehber madde 3.1.4 kapsamına girecek şekilde kumar veya kumar hükmünde faaliyeti ve/veya geliri bulunuyor mu?
+HAYIR
+5) Şirketin kendisinin, tüzel kişi ortaklarının veya iştiraklerinin katılım esaslı olanlar hariç finans sektörü faaliyeti ve/veya geliri bulunuyor mu?
+HAYIR
+6) Şirketin kendisinin, tüzel kişi ortaklarının veya iştiraklerinin, Rehber madde 3.1.5 kapsamına girecek şekilde ahlaka ve islami değerlere aykırı yayıncılık faaliyeti ve/veya geliri bulunuyor mu?
+HAYIR
+7) Şirketin kendisinin, tüzel kişi ortaklarının veya iştiraklerinin, Rehber madde 3.1.6 kapsamına girecek şekilde islami değerlerle bağdaşmayan otel işletmeciliği, turizm sektörü faaliyetleri, çeşitli eğlence ve organizasyon faaliyetleri ve/veya geliri bulunuyor mu?
+HAYIR
+B) KATILIM FİNANSI İLKELERİNE UYGUN OLMAYAN ANCAK REHBER MADDE 3.2 UYARINCA %5'E KADAR İZİN VERİLEN FAALİYETLERDEN ELDE EDİLEN GELİRLER
+KALEM ADI
+TUTAR
+TL
+2025 / Yıllık
+Konsolide Olmayan
+1) Rehber madde 3.2.2 kapsamına girecek şekilde, sağlığa zararlı tütün ürünlerinin perakende satışı ve sunumundan elde edilen gelirlerin toplamı
+0
+2) Rehber madde 3.2.3 kapsamına girecek şekilde, katılım finansı ilkelerine uygun faaliyet göstermeyen şirketlere sunulan iş ve hizmetlerden elde edilen gelirlerin toplamı
+0
+3) Rehber madde 3.2.4 kapsamına girecek şekilde, katılım finansı ilkelerine uygun faaliyet göstermeyen şirketlerden elde edilen kira gelirlerinin toplamı
+0
+4) Rehber madde 3.2.5 kapsamına girecek şekilde, reklam, marka, sponsorluk ve aracılık faaliyetlerinden elde edilen gelirlerin toplamı
+0
+TOPLAM
+0
+C) İLGİLİ FİNANSAL TABLO KALEMLERİ
+KALEM ADI
+TUTAR
+TL
+2025 / Yıllık
+Konsolide Olmayan
+1) Esas Faaliyetlerden Diğer Gelirler
+126.807.625
+2) Finansman Gelirleri
+590.450.892
+3) Yatırım Faaliyetlerinden Gelirler
+0
+4) Finans Sektörü Faaliyetleri Hasılatı
+0
+5) Özkaynak Yöntemiyle Değerlenen Yatırımların Karlarından (Zararlarından) Paylar
+0
+TOPLAM
+717.258.517
+D) C TABLOSUNDA SAYILAN FİNANSAL TABLO KALEMLERİNİN İÇİNDE YER ALAN VE KATILIM FİNANSI İLKELERİNE UYGUN OLDUĞU VARSAYILAN GELİRLER
+KALEM ADI
+TUTAR
+TL
+2025 / Yıllık
+Konsolide Olmayan
+1) Fiyat farkı gelirleri (C tablosunda sayılan kalemlerde muhasebeleştirilmiş kısmı)
+0
+2) Kur farkı gelirleri (C tablosunda sayılan kalemlerde muhasebeleştirilmiş kısmı)
+247.076.423
+3) Vade farkı gelirleri (C tablosunda sayılan kalemlerde muhasebeleştirilmiş kısmı)
+67.142.067
+4) Kur Korumalı Katılım hesapları dahil katılım esaslı kıymetlerden ve fonlardan elde edilen gelirler
+0
+5) SGK prim gelirleri
+0
+6) Katılım bankalarından alınan promosyon gelirleri
+0
+7) Müşteri peşinatları irad kaydı (C tablosunda sayılan kalemlerde muhasebeleştirilmiş kısmı)
+0
+8) Konusu kalmayan karşılıklar
+1.109.080
+9) Hizmet gelirleri (C tablosunda sayılan kalemlerde muhasebeleştirilmiş kısmı)
+0
+10) Kira ve bakım onarım gelirleri (C tablosunda sayılan kalemlerde muhasebeleştirilmiş kısmı)
+0
+11) Ardiye gelirleri (C tablosunda sayılan kalemlerde muhasebeleştirilmiş kısmı)
+0
+12) Tazminat ve gecikme ceza gelirleri
+0
+13) Sigorta hasar tazminat gelirleri
+0
+14) Dava gelirleri
+0
+15) Katılım Finansı İlkelerine uygun faaliyet gösteren şirketlerden elde edilen temettü gelirleri
+0
+16) Yukarıdaki kalemlerde yer verilmeyen ancak Katılım Finansı İlkelerine uygun sayılan diğer gelirlerin toplamı (C tablosunda sayılan kalemlerde muhasebeleştirilmiş kısmı)
+20.006.384
+TOPLAM
+335.333.954
+Yukarıdaki 16 numaralı madde için açıklama
+Hurda satış karları ve diğer
+E) TOPLAM GELİRLER
+KALEM ADI
+TUTAR
+TL
+2025 / Yıllık
+Konsolide Olmayan
+1) Hasılat
+8.726.196.166
+2) Esas Faaliyetlerden Diğer Gelirler
+126.807.625
+3) Finansman Gelirleri
+590.450.892
+4) Yatırım Faaliyetlerinden Gelirler
+0
+5) Finans Sektörü Faaliyetleri Hasılatı
+0
+6) Özkaynak Yöntemiyle Değerlenen Yatırımların Karlarından Paylar
+0
+TOPLAM
+9.443.454.683
+5)	Katılım Finansı İlkelerine Uygun Olmayan Varlıklar (F-G)
+F) İLGİLİ FİNANSAL TABLO KALEMLERİ
+KALEM ADI
+TUTAR
+TL
+2025 / Yıllık
+Konsolide Olmayan
+1) Nakit ve Nakit Benzerleri
+2.460.473.002
+2) Finansal Yatırımlar (Dönen ve Duran Varlıklarda Sınıflandırılanların Toplamı)
+0
+3) Türev Araçlar (Dönen ve  Duran Varlıklarda Sınıflandırılanların Toplamı)
+0
+4) Finans Sektörü Faaliyetlerinden Alacaklar (Dönen ve Duran Varlıklarda Sınıflandırılanların Toplamı)
+0
+5) Özkaynak Yöntemiyle Değerlenen Yatırımlar
+0
+6) İştirakler, İş Ortaklıkları ve Bağlı Ortaklıklardaki Yatırımlar
+0
+TOPLAM
+2.460.473.002
+G) F TABLOSUNDA SAYILAN FİNANSAL TABLO KALEMLERİNİN İÇİNDE YER ALAN VE KATILIM FİNANSI İLKELERİNE UYGUN OLDUĞU VARSAYILAN VARLIKLAR
+KALEM ADI
+TUTAR
+TL
+2025 / Yıllık
+Konsolide Olmayan
+1) Çekler
+0
+2) Kasa
+0
+3) Vadesiz mevduat hesapları
+614.222.694
+4) Katılım esaslı yatırım araçlarındaki (kira sertifikası, sukuk, kur korumalı dahil katılım bankalarında tutulan hesaplar) tutarlar
+0
+5) Katılım Finansı İlkelerine uygun faaliyet gösteren iştirakler ve bağlı ortaklıklardaki şirket payları
+0
+6) Kredi kartı alacakları
+1.098.176
+7) Yukarıdaki kalemlerde yer verilmeyen ancak Katılım Finansı İlkelerine uygun sayılan diğer varlıkların toplamı (F tablosunda sayılan mali tablo kalemlerinde muhasebeleştirilmiş kısmı)
+0
+TOPLAM
+615.320.870
+Yukarıdaki 7 numaralı madde için açıklama
+H) TOPLAM VARLIKLAR
+KALEM ADI
+TUTAR
+TL
+2025 / Yıllık
+Konsolide Olmayan
+Toplam Varlıklar
+9.691.505.564
+6)	Katılım Finansı İlkelerine Uygun Olmayan Borçlar (I-J)
+I) İLGİLİ FİNANSAL TABLO KALEMLERİ
+KALEM ADI
+TUTAR
+TL
+2025 / Yıllık
+Konsolide Olmayan
+1) Kısa Vadeli Borçlanmalar
+0
+2) Uzun Vadeli Borçlanmaların Kısa Vadeli Kısımları
+84.777.527
+3) Uzun Vadeli Borçlanmalar
+83.620.364
+4) Türev Araçlar   (Kısa ve Uzun Vadeli Yükümlülüklerde Sınıflandırılanların Toplamı)
+0
+5) Finans Sektörü Faaliyetlerinden Borçlar (Kısa ve Uzun Vadeli Yükümlülüklerde Sınıflandırılanların Toplamı)
+0
+6) Diğer Borçlar  (Kısa ve Uzun Vadeli Yükümlülüklerde Sınıflandırılanların Toplamı)
+372.795.831
+TOPLAM
+541.193.722
+J) I TABLOSUNDA SAYILAN FİNANSAL TABLO KALEMLERİNİN İÇİNDE YER ALAN VE KATILIM FİNANSI İLKELERİNE UYGUN OLDUĞU VARSAYILAN BORÇLAR
+KALEM ADI
+TUTAR
+TL
+2025 / Yıllık
+Konsolide Olmayan
+1) Kiralama işlemlerinden borçlar (Kısa ve Uzun Vadeli Yükümlülüklerde Sınıflandırılanların Toplamı)
+168.397.891
+2) Katılım bankalarından alınmış krediler
+0
+3) Kira sertifikası, sukuk vb. faizsiz finansal araçlarda yapılmış ihraçlar
+0
+4) Yukarıdaki kalemlerde yer verilmeyen ancak Katılım Finansı İlkelerine uygun sayılan diğer borçların toplamı (I tablosunda sayılan mali tablo kalemlerinde muhasebeleştirilmiş kısmı)
+372.795.831
+TOPLAM
+541.193.722
+Yukarıdaki 4 numaralı madde için açıklama
+Maddi duran varlık alımlarına ilişkin borçlar, ödenecek vergi ve fonlar ve alınan depozito ve teminatları içermektedir.
+__________________________________________________

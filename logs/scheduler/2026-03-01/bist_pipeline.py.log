@@ -1,0 +1,374 @@
+[2026-03-01T18:51:37.970+0000] {processor.py:161} INFO - Started process (PID=29) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T18:51:37.971+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T18:51:37.975+0000] {logging_mixin.py:188} INFO - [2026-03-01T18:51:37.974+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T18:51:45.188+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T18:51:45.432+0000] {logging_mixin.py:188} INFO - [2026-03-01T18:51:45.427+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:bist_v1
+[2026-03-01T18:51:45.440+0000] {logging_mixin.py:188} INFO - [2026-03-01T18:51:45.440+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:bist_v1
+[2026-03-01T18:51:45.443+0000] {logging_mixin.py:188} INFO - [2026-03-01T18:51:45.443+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:bist_v1
+[2026-03-01T18:51:45.444+0000] {logging_mixin.py:188} INFO - [2026-03-01T18:51:45.444+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T18:51:45.452+0000] {logging_mixin.py:188} INFO - [2026-03-01T18:51:45.452+0000] {dag.py:3058} INFO - Creating ORM DAG for bist_v1
+[2026-03-01T18:51:45.460+0000] {logging_mixin.py:188} INFO - [2026-03-01T18:51:45.459+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-02-28 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-03-01T18:51:45.469+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 7.504 seconds
+[2026-03-01T18:52:15.677+0000] {processor.py:161} INFO - Started process (PID=31) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T18:52:15.682+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T18:52:15.707+0000] {logging_mixin.py:188} INFO - [2026-03-01T18:52:15.705+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T18:52:19.097+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T18:52:19.143+0000] {logging_mixin.py:188} INFO - [2026-03-01T18:52:19.142+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T18:52:19.159+0000] {logging_mixin.py:188} INFO - [2026-03-01T18:52:19.159+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-02-28 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-03-01T18:52:19.169+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 3.523 seconds
+[2026-03-01T18:52:49.636+0000] {processor.py:161} INFO - Started process (PID=33) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T18:52:49.643+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T18:52:49.650+0000] {logging_mixin.py:188} INFO - [2026-03-01T18:52:49.649+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T18:52:52.273+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T18:52:52.293+0000] {logging_mixin.py:188} INFO - [2026-03-01T18:52:52.293+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T18:52:52.306+0000] {logging_mixin.py:188} INFO - [2026-03-01T18:52:52.306+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-02-28 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-03-01T18:52:52.316+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 2.691 seconds
+[2026-03-01T18:53:23.095+0000] {processor.py:161} INFO - Started process (PID=35) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T18:53:23.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T18:53:23.107+0000] {logging_mixin.py:188} INFO - [2026-03-01T18:53:23.106+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T18:53:25.376+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T18:53:25.401+0000] {logging_mixin.py:188} INFO - [2026-03-01T18:53:25.401+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T18:53:25.414+0000] {logging_mixin.py:188} INFO - [2026-03-01T18:53:25.414+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-02-28 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-03-01T18:53:25.425+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 2.335 seconds
+[2026-03-01T18:53:55.777+0000] {processor.py:161} INFO - Started process (PID=37) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T18:53:55.780+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T18:53:55.786+0000] {logging_mixin.py:188} INFO - [2026-03-01T18:53:55.785+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T18:53:57.733+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T18:53:57.761+0000] {logging_mixin.py:188} INFO - [2026-03-01T18:53:57.760+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T18:53:57.781+0000] {logging_mixin.py:188} INFO - [2026-03-01T18:53:57.780+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-02-28 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-03-01T18:53:57.793+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 2.022 seconds
+[2026-03-01T19:04:26.409+0000] {processor.py:161} INFO - Started process (PID=30) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:04:26.448+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:04:26.497+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:04:26.489+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:04:56.511+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:04:56.459+0000] {timeout.py:68} ERROR - Process timed out, PID: 30
+[2026-03-01T19:04:56.742+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:04:56.521+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/bist_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/bist_pipeline.py", line 11, in <module>
+    from src.sentimenter.analyzer import prepare_analyzer
+  File "/opt/airflow/src/sentimenter/analyzer.py", line 1, in <module>
+    from transformers import pipeline
+  File "/home/airflow/.local/lib/python3.10/site-packages/transformers/__init__.py", line 26, in <module>
+    from . import dependency_versions_check
+  File "/home/airflow/.local/lib/python3.10/site-packages/transformers/dependency_versions_check.py", line 16, in <module>
+    from .utils.versions import require_version, require_version_core
+  File "/home/airflow/.local/lib/python3.10/site-packages/transformers/utils/__init__.py", line 34, in <module>
+    from .generic import (
+  File "/home/airflow/.local/lib/python3.10/site-packages/transformers/utils/generic.py", line 462, in <module>
+    import torch.utils._pytree as _torch_pytree
+  File "/home/airflow/.local/lib/python3.10/site-packages/torch/__init__.py", line 68, in <module>
+    from torch.torch_version import __version__ as __version__
+  File "/home/airflow/.local/lib/python3.10/site-packages/torch/torch_version.py", line 4, in <module>
+    from torch.version import __version__ as internal_version
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 975, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/bist_pipeline.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.8.1/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.8.1/best-practices.html#reducing-dag-complexity, PID: 30
+[2026-03-01T19:04:56.749+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:04:57.148+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 30.932 seconds
+[2026-03-01T19:05:30.879+0000] {processor.py:161} INFO - Started process (PID=32) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:05:30.974+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:05:40.338+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:05:40.207+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:06:51.559+0000] {processor.py:161} INFO - Started process (PID=34) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:06:51.621+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:06:51.777+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:06:51.762+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:07:25.630+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:07:25.553+0000] {timeout.py:68} ERROR - Process timed out, PID: 34
+[2026-03-01T19:07:25.689+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:07:25.659+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/bist_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/bist_pipeline.py", line 11, in <module>
+    from src.sentimenter.analyzer import prepare_analyzer
+  File "/opt/airflow/src/sentimenter/analyzer.py", line 1, in <module>
+    from transformers import pipeline
+  File "/home/airflow/.local/lib/python3.10/site-packages/transformers/__init__.py", line 26, in <module>
+    from . import dependency_versions_check
+  File "/home/airflow/.local/lib/python3.10/site-packages/transformers/dependency_versions_check.py", line 16, in <module>
+    from .utils.versions import require_version, require_version_core
+  File "/home/airflow/.local/lib/python3.10/site-packages/transformers/utils/__init__.py", line 34, in <module>
+    from .generic import (
+  File "/home/airflow/.local/lib/python3.10/site-packages/transformers/utils/generic.py", line 462, in <module>
+    import torch.utils._pytree as _torch_pytree
+  File "/home/airflow/.local/lib/python3.10/site-packages/torch/__init__.py", line 2100, in <module>
+    import torch.nn.quantized
+  File "/home/airflow/.local/lib/python3.10/site-packages/torch/nn/quantized/__init__.py", line 1, in <module>
+    from torch.nn.quantized import dynamic, functional, modules  # noqa: F403
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1002, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 945, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1439, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1411, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1572, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 128, in _path_join
+  File "<frozen importlib._bootstrap_external>", line 128, in <listcomp>
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/bist_pipeline.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.8.1/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.8.1/best-practices.html#reducing-dag-complexity, PID: 34
+[2026-03-01T19:07:25.731+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:07:27.739+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 36.391 seconds
+[2026-03-01T19:08:07.623+0000] {processor.py:161} INFO - Started process (PID=36) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:08:07.781+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:08:08.752+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:08:08.682+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:10:33.039+0000] {processor.py:161} INFO - Started process (PID=29) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:10:33.055+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:10:33.095+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:10:33.093+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:11:03.297+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:11:03.230+0000] {timeout.py:68} ERROR - Process timed out, PID: 29
+[2026-03-01T19:11:03.319+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:11:03.308+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/bist_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/bist_pipeline.py", line 11, in <module>
+    from src.sentimenter.analyzer import prepare_analyzer
+  File "/opt/airflow/src/sentimenter/analyzer.py", line 1, in <module>
+    from transformers import pipeline
+  File "/home/airflow/.local/lib/python3.10/site-packages/transformers/__init__.py", line 26, in <module>
+    from . import dependency_versions_check
+  File "/home/airflow/.local/lib/python3.10/site-packages/transformers/dependency_versions_check.py", line 16, in <module>
+    from .utils.versions import require_version, require_version_core
+  File "/home/airflow/.local/lib/python3.10/site-packages/transformers/utils/__init__.py", line 34, in <module>
+    from .generic import (
+  File "/home/airflow/.local/lib/python3.10/site-packages/transformers/utils/generic.py", line 462, in <module>
+    import torch.utils._pytree as _torch_pytree
+  File "/home/airflow/.local/lib/python3.10/site-packages/torch/__init__.py", line 2059, in <module>
+    from torch import (
+  File "/home/airflow/.local/lib/python3.10/site-packages/torch/optim/__init__.py", line 12, in <module>
+    from torch.optim.adagrad import Adagrad as Adagrad
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 975, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/bist_pipeline.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.8.1/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.8.1/best-practices.html#reducing-dag-complexity, PID: 29
+[2026-03-01T19:11:03.341+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:11:03.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 30.817 seconds
+[2026-03-01T19:11:34.445+0000] {processor.py:161} INFO - Started process (PID=31) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:11:34.458+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:11:34.516+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:11:34.498+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:11:47.702+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:11:48.111+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:11:48.110+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:bist_v1
+[2026-03-01T19:11:48.120+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:11:48.120+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:bist_v1
+[2026-03-01T19:11:48.123+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:11:48.123+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:bist_v1
+[2026-03-01T19:11:48.125+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:11:48.124+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:11:48.144+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:11:48.142+0000] {dag.py:3058} INFO - Creating ORM DAG for bist_v1
+[2026-03-01T19:11:48.176+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:11:48.176+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-02-28 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-03-01T19:11:48.196+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 13.812 seconds
+[2026-03-01T19:12:18.776+0000] {processor.py:161} INFO - Started process (PID=33) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:12:18.778+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:12:18.783+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:12:18.782+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:12:21.479+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:12:21.544+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:12:21.544+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:12:21.619+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:12:21.619+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-02-28 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-03-01T19:12:21.638+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 2.869 seconds
+[2026-03-01T19:12:52.276+0000] {processor.py:161} INFO - Started process (PID=35) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:12:52.279+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:12:52.283+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:12:52.282+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:12:54.439+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:12:54.487+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:12:54.487+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:12:54.526+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:12:54.525+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-02-28 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-03-01T19:12:54.547+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 2.281 seconds
+[2026-03-01T19:13:24.750+0000] {processor.py:161} INFO - Started process (PID=37) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:13:24.752+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:13:24.755+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:13:24.755+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:13:26.860+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:13:26.893+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:13:26.893+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:13:26.913+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:13:26.913+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-02-28 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-03-01T19:13:26.950+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 2.206 seconds
+[2026-03-01T19:13:57.468+0000] {processor.py:161} INFO - Started process (PID=39) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:13:57.470+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:13:57.474+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:13:57.473+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:13:59.626+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:13:59.657+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:13:59.656+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:13:59.678+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:13:59.678+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-02-28 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-03-01T19:13:59.688+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 2.225 seconds
+[2026-03-01T19:14:30.090+0000] {processor.py:161} INFO - Started process (PID=41) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:14:30.092+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:14:30.096+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:14:30.095+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:14:33.932+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:14:33.965+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:14:33.964+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:14:33.986+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:14:33.986+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-02-28 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-03-01T19:14:33.997+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 3.916 seconds
+[2026-03-01T19:15:04.992+0000] {processor.py:161} INFO - Started process (PID=43) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:15:04.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:15:05.012+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:15:05.011+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:15:08.319+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:15:08.428+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:15:08.427+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:15:08.480+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:15:08.480+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-02-28 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-03-01T19:15:08.507+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 3.522 seconds
+[2026-03-01T19:15:39.079+0000] {processor.py:161} INFO - Started process (PID=45) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:15:39.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:15:39.086+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:15:39.085+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:15:41.737+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:15:41.808+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:15:41.808+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:15:41.857+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:15:41.856+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-02-28 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-03-01T19:15:41.880+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 2.812 seconds
+[2026-03-01T19:16:12.535+0000] {processor.py:161} INFO - Started process (PID=47) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:16:12.544+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:16:12.555+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:16:12.553+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:16:15.629+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:16:15.668+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:16:15.668+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:16:15.692+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:16:15.691+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-02-28 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-03-01T19:16:15.704+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 3.194 seconds
+[2026-03-01T19:16:46.067+0000] {processor.py:161} INFO - Started process (PID=53) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:16:46.075+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:16:46.116+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:16:46.115+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:17:03.867+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:17:04.063+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:17:04.060+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:17:04.165+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:17:04.165+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-03-01 00:00:00+00:00, run_after=2026-03-02 00:00:00+00:00
+[2026-03-01T19:17:04.200+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 18.172 seconds
+[2026-03-01T19:17:35.724+0000] {processor.py:161} INFO - Started process (PID=55) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:17:35.728+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:17:35.768+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:17:35.761+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:18:03.155+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:18:03.264+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:18:03.263+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:18:03.352+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:18:03.351+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-03-01 00:00:00+00:00, run_after=2026-03-02 00:00:00+00:00
+[2026-03-01T19:18:03.394+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 27.706 seconds
+[2026-03-01T19:18:34.569+0000] {processor.py:161} INFO - Started process (PID=57) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:18:34.573+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:18:34.615+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:18:34.612+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:18:45.823+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:18:45.990+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:18:45.988+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:18:46.118+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:18:46.117+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-03-01 00:00:00+00:00, run_after=2026-03-02 00:00:00+00:00
+[2026-03-01T19:18:46.193+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 11.651 seconds
+[2026-03-01T19:19:17.626+0000] {processor.py:161} INFO - Started process (PID=59) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:19:17.629+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:19:17.651+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:19:17.649+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:19:26.631+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:19:26.793+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:19:26.792+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:19:26.827+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:19:26.827+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-03-01 00:00:00+00:00, run_after=2026-03-02 00:00:00+00:00
+[2026-03-01T19:19:26.861+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 9.250 seconds
+[2026-03-01T19:19:58.354+0000] {processor.py:161} INFO - Started process (PID=65) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:19:58.384+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:19:58.448+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:19:58.443+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:20:05.615+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:20:05.643+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:20:05.643+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:20:05.661+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:20:05.660+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-03-01 00:00:00+00:00, run_after=2026-03-02 00:00:00+00:00
+[2026-03-01T19:20:05.671+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 7.425 seconds
+[2026-03-01T19:20:36.260+0000] {processor.py:161} INFO - Started process (PID=67) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:20:36.263+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:20:36.273+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:20:36.273+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:20:46.197+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:20:46.278+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:20:46.277+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:20:46.320+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:20:46.320+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-03-01 00:00:00+00:00, run_after=2026-03-02 00:00:00+00:00
+[2026-03-01T19:20:46.353+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 10.110 seconds
+[2026-03-01T19:21:17.013+0000] {processor.py:161} INFO - Started process (PID=69) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:21:17.016+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:21:17.025+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:21:17.024+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:21:21.770+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:21:21.839+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:21:21.838+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:21:21.912+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:21:21.912+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-03-01 00:00:00+00:00, run_after=2026-03-02 00:00:00+00:00
+[2026-03-01T19:21:21.935+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 4.929 seconds
+[2026-03-01T19:21:52.814+0000] {processor.py:161} INFO - Started process (PID=71) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:21:52.816+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:21:52.820+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:21:52.820+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:21:58.093+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:21:58.234+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:21:58.232+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:21:58.288+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:21:58.287+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-03-01 00:00:00+00:00, run_after=2026-03-02 00:00:00+00:00
+[2026-03-01T19:21:58.310+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 5.502 seconds
+[2026-03-01T19:22:29.185+0000] {processor.py:161} INFO - Started process (PID=73) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:22:29.197+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:22:29.218+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:22:29.216+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:22:33.356+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:22:33.397+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:22:33.396+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:22:33.415+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:22:33.415+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-03-01 00:00:00+00:00, run_after=2026-03-02 00:00:00+00:00
+[2026-03-01T19:22:33.427+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 4.255 seconds
+[2026-03-01T19:23:04.149+0000] {processor.py:161} INFO - Started process (PID=75) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:23:04.152+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:23:04.158+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:23:04.157+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:23:06.803+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:23:06.835+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:23:06.834+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:23:06.854+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:23:06.854+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-03-01 00:00:00+00:00, run_after=2026-03-02 00:00:00+00:00
+[2026-03-01T19:23:06.863+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 2.724 seconds
+[2026-03-01T19:23:37.627+0000] {processor.py:161} INFO - Started process (PID=77) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:23:37.631+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:23:37.635+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:23:37.634+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:23:40.200+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:23:40.227+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:23:40.226+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:23:40.257+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:23:40.256+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-03-01 00:00:00+00:00, run_after=2026-03-02 00:00:00+00:00
+[2026-03-01T19:23:40.270+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 2.656 seconds
+[2026-03-01T19:24:11.131+0000] {processor.py:161} INFO - Started process (PID=79) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:24:11.136+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:24:11.145+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:24:11.145+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:24:15.315+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:24:15.351+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:24:15.350+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:24:15.377+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:24:15.377+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-03-01 00:00:00+00:00, run_after=2026-03-02 00:00:00+00:00
+[2026-03-01T19:24:15.395+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 4.277 seconds
+[2026-03-01T19:24:46.166+0000] {processor.py:161} INFO - Started process (PID=81) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:24:46.171+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:24:46.183+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:24:46.182+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:24:49.752+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:24:49.804+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:24:49.803+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:24:49.821+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:24:49.820+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-03-01 00:00:00+00:00, run_after=2026-03-02 00:00:00+00:00
+[2026-03-01T19:24:49.836+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 3.682 seconds
+[2026-03-01T19:25:20.731+0000] {processor.py:161} INFO - Started process (PID=83) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:25:20.735+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:25:20.743+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:25:20.743+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:25:23.674+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:25:23.709+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:25:23.708+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:25:23.748+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:25:23.747+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-03-01 00:00:00+00:00, run_after=2026-03-02 00:00:00+00:00
+[2026-03-01T19:25:23.759+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 3.036 seconds
+[2026-03-01T19:25:54.552+0000] {processor.py:161} INFO - Started process (PID=85) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:25:54.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:25:54.570+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:25:54.569+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:25:59.118+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:25:59.183+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:25:59.181+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:25:59.211+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:25:59.211+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-03-01 00:00:00+00:00, run_after=2026-03-02 00:00:00+00:00
+[2026-03-01T19:25:59.223+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 4.682 seconds
+[2026-03-01T19:26:29.999+0000] {processor.py:161} INFO - Started process (PID=87) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:26:30.003+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:26:30.007+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:26:30.006+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:26:32.862+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:26:32.907+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:26:32.906+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:26:32.924+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:26:32.923+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-03-01 00:00:00+00:00, run_after=2026-03-02 00:00:00+00:00
+[2026-03-01T19:26:32.940+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 2.948 seconds
+[2026-03-01T19:27:03.784+0000] {processor.py:161} INFO - Started process (PID=89) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:27:03.788+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:27:03.795+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:27:03.795+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:27:08.184+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:27:08.253+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:27:08.252+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:27:08.308+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:27:08.308+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-03-01 00:00:00+00:00, run_after=2026-03-02 00:00:00+00:00
+[2026-03-01T19:27:08.333+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 4.560 seconds
+[2026-03-01T19:27:39.001+0000] {processor.py:161} INFO - Started process (PID=91) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:27:39.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:27:39.022+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:27:39.019+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:27:42.389+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:27:42.427+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:27:42.426+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:27:42.467+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:27:42.466+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-03-01 00:00:00+00:00, run_after=2026-03-02 00:00:00+00:00
+[2026-03-01T19:27:42.486+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 3.507 seconds
+[2026-03-01T19:28:12.763+0000] {processor.py:161} INFO - Started process (PID=93) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:28:12.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:28:12.772+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:28:12.772+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:28:15.690+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:28:15.738+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:28:15.737+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:28:15.772+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:28:15.772+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-03-01 00:00:00+00:00, run_after=2026-03-02 00:00:00+00:00
+[2026-03-01T19:28:15.790+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 3.034 seconds
+[2026-03-01T19:28:46.489+0000] {processor.py:161} INFO - Started process (PID=95) to work on /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:28:46.492+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bist_pipeline.py for tasks to queue
+[2026-03-01T19:28:46.497+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:28:46.496+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:28:48.636+0000] {processor.py:840} INFO - DAG(s) 'bist_v1' retrieved from /opt/airflow/dags/bist_pipeline.py
+[2026-03-01T19:28:48.672+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:28:48.672+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-01T19:28:48.692+0000] {logging_mixin.py:188} INFO - [2026-03-01T19:28:48.692+0000] {dag.py:3823} INFO - Setting next_dagrun for bist_v1 to 2026-03-01 00:00:00+00:00, run_after=2026-03-02 00:00:00+00:00
+[2026-03-01T19:28:48.712+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bist_pipeline.py took 2.230 seconds
