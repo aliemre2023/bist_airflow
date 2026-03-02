@@ -101,11 +101,24 @@ def match_content(df, content, jaro_threshold=0.88):
         [m["Kod"] for m in exact_kod_matches] +
         [m["Kod"] for m in fuzzy_name_matches]
     )
+
+    matched_names = (
+        [m["Şirket Ünvanı"] for m in exact_kod_matches] +
+        [m["Şirket Ünvanı"] for m in fuzzy_name_matches]
+    )
     
+    # kod → şirket ünvanı eşlemesi
+    kod_to_name = {
+        m["Kod"]: m["Şirket Ünvanı"]
+        for m in exact_kod_matches + fuzzy_name_matches
+    }
+
     return {
         "exact_kod_matches": exact_kod_matches,
         "fuzzy_name_matches": fuzzy_name_matches,
-        "matched_kods": matched_kods
+        "matched_kods": matched_kods,
+        "matched_names": matched_names,
+        "kod_to_name": kod_to_name,
     }
 
 

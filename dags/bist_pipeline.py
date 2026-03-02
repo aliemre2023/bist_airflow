@@ -11,6 +11,7 @@ from src.matcher.matcher import match_content
 from src.sentimenter.analyzer import prepare_analyzer
 from src.sentimenter.sentimenter import sentimenter
 from src.stockbroker.stockbroker import Wallet, stockbroker
+from src.db.init_db import init_db, upsert_sirket, insert_news, link_news_sirket
 
 
 def load_df():
@@ -40,6 +41,8 @@ def get_analyzer():
 
 def full_pipeline():
     """Haberleri çek, şirketlerle eşleştir, sentiment analizi yap, al/sat"""
+    init_db()
+
     df = load_df()             # Her gün (liste değişmiş olabilir)
     analyzer = get_analyzer()  # İlk çalışmada yükle, sonra cache'den al
     wallet = Wallet("default")
@@ -57,6 +60,8 @@ def full_pipeline():
     for new in news:
         new_date = datetime.strptime(new["date"], "%Y.%m.%d").date()
         new_content = new["content"]
+        new_url      = new.get("url", "")
+        new_provider = new.get("provider", "")
 
         # 2 günden eski haberleri atla
         if new_date < today - timedelta(days=2):
@@ -64,6 +69,7 @@ def full_pipeline():
 
         matched = match_content(df, new_content)
         matched_kods = matched["matched_kods"]
+        kod_to_name  = matched["kod_to_name"]
 
         if len(matched_kods) == 0:
             continue
@@ -72,7 +78,23 @@ def full_pipeline():
 
         print(f"  📰 Haber → {matched_kods} | sentiment: {sentiment_result} ({sentiment_ratio:.2f})")
 
+        # --- DB: haberi kaydet ---
+        news_id = insert_news(
+            news_url=new_url,
+            news_date=new["date"],
+            news_provider=new_provider,
+            news_content=new_content,
+            news_type=sentiment_result,
+            news_ratio=sentiment_ratio,
+        )
+
         for kod in matched_kods:
+            # --- DB: şirketi upsert et ve junction kaydı ekle ---
+            sirket_name = kod_to_name.get(kod, kod)
+            sirket_id = upsert_sirket(kod, sirket_name)
+            if news_id:
+                link_news_sirket(news_id, sirket_id)
+
             # Aynı şirket için en kötü/iyi sentiment'i tut (en negatif kazanır)
             if kod not in decisions or sentiment_result < decisions[kod]:
                 decisions[kod] = sentiment_result

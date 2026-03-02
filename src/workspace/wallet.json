@@ -1,9 +1,15 @@
 {
     "default": {
-        "money": 80006.9894,
+        "money": 19750.8097,
         "portfolio": {
-            "VBTYZ.IS": 464,
-            "MARMR.IS": 4081
+            "IZINV.IS": 173,
+            "UNLU.IS": 673,
+            "DENGE.IS": 4048,
+            "ARSAN.IS": 2762,
+            "OZSUB.IS": 550,
+            "OYAYO.IS": 174,
+            "KUYAS.IS": 147,
+            "BIMAS.IS": 14
         }
     }
 }

@@ -334,7 +334,12 @@ def content_extractor(news_items):
                 news_distributor = provider_clean
 
         if save_news_content(content, date_file_name, news_distributor):
-            extracted_news.append({"date": date_file_name, "content": pure_content})
+            extracted_news.append({
+                "date": date_file_name,
+                "content": pure_content,
+                "url": link,
+                "provider": news_distributor,
+            })
             extracted_count += 1
             print(f"  ✅ Kaydedildi: {news_distributor}/{date_file_name}")
         else:

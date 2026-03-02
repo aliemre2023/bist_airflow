@@ -128,8 +128,19 @@ class Wallet:
     def show(self):
         print(f"👛 Wallet [{self.name}]")
         print(f"   Nakit: {self.money:.2f} TL")
+        portfolio_value = 0.0
         for ticker, unit in self.portfolio.items():
-            print(f"   {ticker}: {unit} adet")
+            price = self.get_price(ticker)
+            if price is not None:
+                value = price * unit
+                portfolio_value += value
+                print(f"   {ticker}: {unit} adet  →  {value:.2f} TL  (@ {price:.2f})")
+            else:
+                print(f"   {ticker}: {unit} adet  →  fiyat alınamadı")
+        total = self.money + portfolio_value
+        print(f"   {'─'*40}")
+        print(f"   Portföy Değeri : {portfolio_value:.2f} TL")
+        print(f"   Toplam Varlık  : {total:.2f} TL")
 
 
 def stockbroker(wallet: Wallet, companies: list, sentiment_type: int):
@@ -176,3 +187,11 @@ def stockbroker(wallet: Wallet, companies: list, sentiment_type: int):
         elif sentiment_type == -2:
             # Tümünü sat
             wallet.sell(ticker)
+
+def main():
+    wallet = Wallet("default")
+    wallet.show()
+
+
+if __name__ == "__main__":
+    main()
