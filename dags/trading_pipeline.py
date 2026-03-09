@@ -28,41 +28,57 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
 
-from src.estimater.estimatier1 import (
-    fetch_macro_data,
-    run_predictions,
-    execute_trades,
-    init_prediction_table,
-    check_models_exist,
-)
-from src.db.init_db import init_db
+# from src.estimater.estimatier1 import (
+#     fetch_macro_data,
+#     run_predictions,
+#     execute_trades,
+#     init_prediction_table,
+#     check_models_exist,
+# )
+# from src.db.init_db import init_db
 
 
 # ─── Task callables ──────────────────────────────────────────────────────────
 
 def step_init():
     """Initialize all DB tables."""
+    from src.db.init_db import init_db
+    from src.estimater.estimatier1 import (
+        init_prediction_table,
+    )
     init_db()
     init_prediction_table()
 
 
 def step_check_models():
     """Verify trained models exist before running predictions."""
+    from src.estimater.estimatier1 import (
+        check_models_exist,
+    )
     check_models_exist(min_models=1)
 
 
 def step_fetch_macro():
     """Fetch and cache EVDS + FRED macro data."""
+    from src.estimater.estimatier1 import (
+        fetch_macro_data,
+    )
     fetch_macro_data()
 
 
 def step_predict():
     """Run NN predictions for all BIST100 companies."""
+    from src.estimater.estimatier1 import (
+        run_predictions,
+    )
     run_predictions()
 
 
 def step_trade():
     """Execute trades based on today's predictions."""
+    from src.estimater.estimatier1 import (
+        execute_trades,
+    )
     execute_trades()
 
 
