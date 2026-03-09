@@ -6,12 +6,11 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
 import pandas as pd
-from src.scraper.news_scraper_v3 import scrape_bist_news
-from src.matcher.matcher import match_content
-from src.sentimenter.analyzer import prepare_analyzer
-from src.sentimenter.sentimenter import sentimenter
-from src.stockbroker.stockbroker import Wallet, stockbroker
-from src.db.init_db import init_db, upsert_sirket, insert_news, link_news_sirket
+#from src.scraper.news_scraper_v3 import scrape_bist_news
+#from src.matcher.matcher import match_content
+#from src.sentimenter.analyzer import prepare_analyzer
+#from src.sentimenter.sentimenter import sentimenter
+#from src.db.init_db import init_db, upsert_sirket, insert_news, link_news_sirket
 
 
 def load_df():
@@ -33,6 +32,8 @@ def load_df():
 _analyzer_cache = None
 
 def get_analyzer():
+    from src.sentimenter.analyzer import prepare_analyzer
+
     global _analyzer_cache
     if _analyzer_cache is None:
         _analyzer_cache = prepare_analyzer()
@@ -41,6 +42,8 @@ def get_analyzer():
 
 def step_scrape_news(**kwargs):
     """Haberleri çeker ve XCom üzerinden bir sonraki göreve aktarır."""
+    from src.scraper.news_scraper_v3 import scrape_bist_news
+
     result = scrape_bist_news()
     if result["status"] != "success":
         print("  ⚠️ Haber çekme başarısız veya yeni haber yok.")
@@ -51,6 +54,11 @@ def step_scrape_news(**kwargs):
 
 def step_process_news(**kwargs):
     """Çekilen haberleri alır, şirketlerle eşleştirir, sentiment analizi yapar ve DB'ye kaydeder."""
+    from src.matcher.matcher import match_content
+    from src.sentimenter.sentimenter import sentimenter
+    from src.db.init_db import init_db, upsert_sirket, insert_news, link_news_sirket
+
+
     ti = kwargs["ti"]
     news = ti.xcom_pull(task_ids="scrape_news")
 
@@ -61,7 +69,6 @@ def step_process_news(**kwargs):
     init_db()
     df = load_df()             # Her gün (liste değişmiş olabilir)
     analyzer = get_analyzer()  # İlk çalışmada yükle, sonra cache'den al
-    wallet = Wallet("default")
     today = datetime.now().date()
 
     for new in news:
@@ -101,8 +108,6 @@ def step_process_news(**kwargs):
             sirket_id = upsert_sirket(kod, sirket_name)
             if news_id:
                 link_news_sirket(news_id, sirket_id)
-
-    wallet.show()
 
             
 
