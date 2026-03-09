@@ -25,30 +25,40 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
 
-from src.estimater.estimatier1 import (
-    fetch_macro_data,
-    train_all_models,
-    init_prediction_table,
-)
-from src.db.init_db import init_db
+#from src.estimater.estimatier1 import (
+#    fetch_macro_data,
+#    train_all_models,
+#    init_prediction_table,
+#)
+#from src.db.init_db import init_db
 
 
 # ─── Task callables ──────────────────────────────────────────────────────────
 
 def step_init():
     """Initialize all DB tables."""
+    from src.db.init_db import init_db
+    from src.estimater.estimatier1 import (
+        init_prediction_table,
+    )
     init_db()
     init_prediction_table()
 
 
 def step_fetch_macro():
     """Fetch and cache EVDS + FRED macro data."""
+    from src.estimater.estimatier1 import (
+        fetch_macro_data,
+    )
     fetch_macro_data()
 
 
 def step_train():
     """Train NN models for all BIST100 companies."""
     # Force retrain so every Friday we get a fresh model
+    from src.estimater.estimatier1 import (
+        train_all_models,
+    )
     train_all_models(force_retrain=True)
 
 
@@ -61,7 +71,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id="bist_nn_training_v1",
+    dag_id="training_v1",
     default_args=default_args,
     description="NN-based BIST100 stock prediction - WEEKLY TRAINING pipeline",
     start_date=datetime(2026, 3, 1),
