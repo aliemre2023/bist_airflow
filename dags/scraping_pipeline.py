@@ -124,6 +124,7 @@ with DAG(
     dag_id='scraper_v1',
     start_date=datetime(2026, 2, 1),
     schedule_interval=schedule_interval,
+    tags=["bist100", "web", "scraping", "news", "tradingview"],
     catchup=False
 ) as dag:
 
