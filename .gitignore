@@ -3,3 +3,8 @@ __pycache__
 .DS_Store
 models
 news
+.env
+
+bist.db
+wallet.json
+*.log
