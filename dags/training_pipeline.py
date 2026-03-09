@@ -38,7 +38,7 @@ from datetime import datetime, timedelta
 def step_init():
     """Initialize all DB tables."""
     from src.db.init_db import init_db
-    from src.estimater.estimatier1 import (
+    from src.estimater.estimater1 import (
         init_prediction_table,
     )
     init_db()
@@ -47,7 +47,7 @@ def step_init():
 
 def step_fetch_macro():
     """Fetch and cache EVDS + FRED macro data."""
-    from src.estimater.estimatier1 import (
+    from src.estimater.estimater1 import (
         fetch_macro_data,
     )
     fetch_macro_data()
@@ -56,7 +56,7 @@ def step_fetch_macro():
 def step_train():
     """Train NN models for all BIST100 companies."""
     # Force retrain so every Friday we get a fresh model
-    from src.estimater.estimatier1 import (
+    from src.estimater.estimater1 import (
         train_all_models,
     )
     train_all_models(force_retrain=True)

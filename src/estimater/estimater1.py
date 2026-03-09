@@ -549,7 +549,8 @@ FEATURE_GROUPS = {
 }
 
 # Default: use all groups
-DEFAULT_FEATURE_GROUPS = ["technical", "technical_extra", "sentiment", "macro_fx", "fred"]
+DEFAULT_FEATURE_GROUPS_old = ["technical", "technical_extra", "sentiment", "macro_fx", "fred"]
+DEFAULT_FEATURE_GROUPS = ["technical", "technical_extra", "sentiment"]
 
 
 def get_feature_columns(groups: Optional[list[str]] = None) -> list[str]:
