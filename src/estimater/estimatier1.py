@@ -1072,6 +1072,35 @@ def train_all_models(force_retrain: bool = False, max_age_days: int = RETRAIN_AG
     return stats
 
 
+def check_models_exist(min_models: int = 1):
+    """Pre-check: Verify that at least `min_models` trained models exist.
+
+    Raises AirflowFailException if no models found, so the DAG fails
+    clearly instead of silently skipping all predictions.
+    """
+    from airflow.exceptions import AirflowFailException
+
+    if not os.path.isdir(MODELS_DIR):
+        raise AirflowFailException(
+            f"Models directory does not exist: {MODELS_DIR}\n"
+            "Training pipeline (bist_nn_training_v1) must run at least once before trading."
+        )
+
+    model_files = [f for f in os.listdir(MODELS_DIR) if f.endswith(".pt")]
+    count = len(model_files)
+    print(f"  🔍 Model check: found {count} trained model(s) in {MODELS_DIR}", flush=True)
+
+    if count < min_models:
+        raise AirflowFailException(
+            f"Only {count} model(s) found (minimum required: {min_models}).\n"
+            "Training pipeline (bist_nn_training_v1) must run at least once before trading.\n"
+            "Trigger it manually:  airflow dags trigger bist_nn_training_v1"
+        )
+
+    print(f"  ✅ Model check passed ({count} models available)", flush=True)
+    return count
+
+
 def run_predictions():
     """Step 2: Run NN predictions for all companies in the DB.
 

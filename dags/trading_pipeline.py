@@ -33,6 +33,7 @@ from src.estimater.estimatier1 import (
     run_predictions,
     execute_trades,
     init_prediction_table,
+    check_models_exist,
 )
 from src.db.init_db import init_db
 
@@ -43,6 +44,11 @@ def step_init():
     """Initialize all DB tables."""
     init_db()
     init_prediction_table()
+
+
+def step_check_models():
+    """Verify trained models exist before running predictions."""
+    check_models_exist(min_models=1)
 
 
 def step_fetch_macro():
@@ -69,7 +75,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id="bist_nn_v1",
+    dag_id="trading_v1",
     default_args=default_args,
     description="NN-based BIST100 stock prediction & trading pipeline",
     start_date=datetime(2026, 3, 1),
@@ -83,6 +89,11 @@ with DAG(
     t_init = PythonOperator(
         task_id="init_db",
         python_callable=step_init,
+    )
+
+    t_check_models = PythonOperator(
+        task_id="check_models_exist",
+        python_callable=step_check_models,
     )
 
     t_fetch = PythonOperator(
@@ -105,4 +116,4 @@ with DAG(
     )
 
     # Pipeline flow
-    t_init >> t_fetch >> t_predict >> t_trade
+    t_init >> t_check_models >> t_fetch >> t_predict >> t_trade
