@@ -6,12 +6,11 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
 import pandas as pd
-from src.scraper.news_scraper_v3 import scrape_bist_news
-from src.matcher.matcher import match_content
-from src.sentimenter.analyzer import prepare_analyzer
-from src.sentimenter.sentimenter import sentimenter
-from src.stockbroker.stockbroker import Wallet, stockbroker
-from src.db.init_db import init_db, upsert_sirket, insert_news, link_news_sirket
+#from src.scraper.news_scraper_v3 import scrape_bist_news
+#from src.matcher.matcher import match_content
+#from src.sentimenter.analyzer import prepare_analyzer
+#from src.sentimenter.sentimenter import sentimenter
+#from src.db.init_db import init_db, upsert_sirket, insert_news, link_news_sirket
 
 
 def load_df():
@@ -33,29 +32,44 @@ def load_df():
 _analyzer_cache = None
 
 def get_analyzer():
+    from src.sentimenter.analyzer import prepare_analyzer
+
     global _analyzer_cache
     if _analyzer_cache is None:
         _analyzer_cache = prepare_analyzer()
     return _analyzer_cache
 
 
-def full_pipeline():
-    """Haberleri çek, şirketlerle eşleştir, sentiment analizi yap, al/sat"""
-    init_db()
-
-    df = load_df()             # Her gün (liste değişmiş olabilir)
-    analyzer = get_analyzer()  # İlk çalışmada yükle, sonra cache'den al
-    wallet = Wallet("default")
-    today = datetime.now().date()
+def step_scrape_news(**kwargs):
+    """Haberleri çeker ve XCom üzerinden bir sonraki göreve aktarır."""
+    from src.scraper.news_scraper_v3 import scrape_bist_news
 
     result = scrape_bist_news()
-
     if result["status"] != "success":
+        print("  ⚠️ Haber çekme başarısız veya yeni haber yok.")
+        return []
+
+    return result["extracted_news"]
+
+
+def step_process_news(**kwargs):
+    """Çekilen haberleri alır, şirketlerle eşleştirir, sentiment analizi yapar ve DB'ye kaydeder."""
+    from src.matcher.matcher import match_content
+    from src.sentimenter.sentimenter import sentimenter
+    from src.db.init_db import init_db, upsert_sirket, insert_news, link_news_sirket
+
+
+    ti = kwargs["ti"]
+    news = ti.xcom_pull(task_ids="scrape_news")
+
+    if not news:
+        print("  ⏭️ İşlenecek haber bulunamadı.")
         return
 
-    news = result["extracted_news"]
-
-    decisions = {}  # {kod: sentiment_result}
+    init_db()
+    df = load_df()             # Her gün (liste değişmiş olabilir)
+    analyzer = get_analyzer()  # İlk çalışmada yükle, sonra cache'den al
+    today = datetime.now().date()
 
     for new in news:
         new_date = datetime.strptime(new["date"], "%Y.%m.%d").date()
@@ -63,8 +77,8 @@ def full_pipeline():
         new_url      = new.get("url", "")
         new_provider = new.get("provider", "")
 
-        # 2 günden eski haberleri atla
-        if new_date < today - timedelta(days=2):
+        # 10 günden eski haberleri atla
+        if new_date < today - timedelta(days=10):
             continue
 
         matched = match_content(df, new_content)
@@ -95,22 +109,6 @@ def full_pipeline():
             if news_id:
                 link_news_sirket(news_id, sirket_id)
 
-            # Aynı şirket için en kötü/iyi sentiment'i tut (en negatif kazanır)
-            if kod not in decisions or sentiment_result < decisions[kod]:
-                decisions[kod] = sentiment_result
-
-    # Önce negatifler: sat
-    for kod, sentiment in decisions.items():
-        if sentiment < 0:
-            stockbroker(wallet, [kod], sentiment)
-
-    # Sonra pozitifler: al
-    for kod, sentiment in decisions.items():
-        if sentiment > 0:
-            stockbroker(wallet, [kod], sentiment)
-
-    wallet.show()
-
             
 
 
@@ -119,15 +117,28 @@ def full_pipeline():
 
 
 
+# Runs every 30 minutes
+schedule_interval=timedelta(minutes=30)
 
 with DAG(
-    dag_id='bist_v1',
+    dag_id='scraper_v1',
     start_date=datetime(2026, 2, 1),
-    schedule_interval='@daily',
+    schedule_interval=schedule_interval,
+    tags=["bist100", "web", "scraping", "news", "tradingview"],
     catchup=False
 ) as dag:
 
-    pipeline_task = PythonOperator(
-        task_id='trading_v1',
-        python_callable=full_pipeline
+    t_scrape = PythonOperator(
+        task_id='scrape_news',
+        python_callable=step_scrape_news,
     )
+
+    t_process = PythonOperator(
+        task_id='process_news',
+        python_callable=step_process_news,
+        # provide_context is True by default in Airflow 2+, but we can leave it implicit. 
+        # The kwargs in the function signature will receive 'ti'.
+    )
+
+    # Pipeline flow
+    t_scrape >> t_process

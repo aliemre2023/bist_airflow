@@ -28,4 +28,18 @@ CREATE TABLE IF NOT EXISTS news_sirket (
 );
 """
 
-ALL_TABLES = [CREATE_SIRKET, CREATE_NEWS, CREATE_NEWS_SIRKET]
+CREATE_PREDICTION = """
+CREATE TABLE IF NOT EXISTS prediction (
+    prediction_id   INTEGER PRIMARY KEY AUTOINCREMENT,
+    sirket_id       INTEGER NOT NULL REFERENCES sirket(sirket_id),
+    prediction_date TEXT    NOT NULL,
+    signal          INTEGER,
+    probability     REAL,
+    model_version   TEXT    DEFAULT 'nn_v1',
+    model_auc       REAL,
+    created_at      TEXT    NOT NULL DEFAULT (datetime('now')),
+    UNIQUE(sirket_id, prediction_date, model_version)
+);
+"""
+
+ALL_TABLES = [CREATE_SIRKET, CREATE_NEWS, CREATE_NEWS_SIRKET, CREATE_PREDICTION]

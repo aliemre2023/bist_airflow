@@ -95,6 +95,54 @@ def link_news_sirket(news_id: int, sirket_id: int):
 
 
 # ---------------------------------------------------------------------------
+# prediction
+# ---------------------------------------------------------------------------
+
+def upsert_prediction(
+    sirket_code: str,
+    prediction_date: str,
+    signal: int,
+    probability: float,
+    model_version: str = "nn_v1",
+    model_auc: float | None = None,
+) -> int | None:
+    """Insert or update a prediction. Returns prediction_id."""
+    sirket_id = get_sirket_id(sirket_code)
+    if sirket_id is None:
+        return None
+    conn = get_connection()
+    try:
+        with conn:
+            cur = conn.execute(
+                """INSERT INTO prediction
+                   (sirket_id, prediction_date, signal, probability, model_version, model_auc)
+                   VALUES (?, ?, ?, ?, ?, ?)
+                   ON CONFLICT(sirket_id, prediction_date, model_version)
+                   DO UPDATE SET signal=excluded.signal, probability=excluded.probability,
+                                 model_auc=excluded.model_auc, created_at=datetime('now')""",
+                (sirket_id, prediction_date, signal, probability, model_version, model_auc),
+            )
+            return cur.lastrowid
+    finally:
+        conn.close()
+
+
+def get_predictions_by_date(prediction_date: str, model_version: str = "nn_v1") -> list[dict]:
+    """Get all predictions for a specific date."""
+    conn = get_connection()
+    rows = conn.execute(
+        """SELECT s.sirket_code, p.signal, p.probability, p.model_auc
+           FROM prediction p
+           JOIN sirket s ON s.sirket_id = p.sirket_id
+           WHERE p.prediction_date = ? AND p.model_version = ?
+           ORDER BY p.probability DESC""",
+        (prediction_date, model_version),
+    ).fetchall()
+    conn.close()
+    return [dict(r) for r in rows]
+
+
+# ---------------------------------------------------------------------------
 # Entry point
 # ---------------------------------------------------------------------------
 

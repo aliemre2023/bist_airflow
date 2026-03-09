@@ -14,6 +14,8 @@ x-airflow-common:
     AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
     AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
     AIRFLOW_HOME: /opt/airflow
+    EVDS_API_KEY: ${EVDS_API_KEY:-}
+    FRED_API_KEY: ${FRED_API_KEY:-}
   volumes:
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
