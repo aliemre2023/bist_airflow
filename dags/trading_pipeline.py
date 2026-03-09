@@ -43,7 +43,7 @@ from datetime import datetime, timedelta
 def step_init():
     """Initialize all DB tables."""
     from src.db.init_db import init_db
-    from src.estimater.estimatier1 import (
+    from src.estimater.estimater1 import (
         init_prediction_table,
     )
     init_db()
@@ -52,7 +52,7 @@ def step_init():
 
 def step_check_models():
     """Verify trained models exist before running predictions."""
-    from src.estimater.estimatier1 import (
+    from src.estimater.estimater1 import (
         check_models_exist,
     )
     check_models_exist(min_models=1)
@@ -60,7 +60,7 @@ def step_check_models():
 
 def step_fetch_macro():
     """Fetch and cache EVDS + FRED macro data."""
-    from src.estimater.estimatier1 import (
+    from src.estimater.estimater1 import (
         fetch_macro_data,
     )
     fetch_macro_data()
@@ -68,7 +68,7 @@ def step_fetch_macro():
 
 def step_predict():
     """Run NN predictions for all BIST100 companies."""
-    from src.estimater.estimatier1 import (
+    from src.estimater.estimater1 import (
         run_predictions,
     )
     run_predictions()
@@ -76,7 +76,7 @@ def step_predict():
 
 def step_trade():
     """Execute trades based on today's predictions."""
-    from src.estimater.estimatier1 import (
+    from src.estimater.estimater1 import (
         execute_trades,
     )
     execute_trades()
