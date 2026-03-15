@@ -1,31 +1,20 @@
-# BIST Airflow Trading Bot
+# BIST Airflow Trading Pipeline
 
 An experimental, fully automated daily trading pipeline for BIST stocks.  
 It scrapes financial news, matches them to companies, runs Turkish sentiment analysis, and executes buy/sell decisions — all orchestrated by Apache Airflow.
 
 ---
 
-## How It Works
+## Pipelines & DAGs
 
-```
-TradingView News API
-        ↓
-   News Scraper (v3)
-        ↓
-  Company Matcher  ←── BIST company list (KAP)
-        ↓
-Sentiment Analyzer  ←── Fine-tuned BERTurk model
-        ↓
-  Stockbroker / Wallet
-        ↓
-  buy / sell / hold
-```
+**Scraping Pipeline:**
+Fetches the latest financial news from TradingView, matches each article to BIST companies, analyzes sentiment, and saves the results to the database. Runs every 30 minutes to keep news and sentiment data up to date.
 
-Every day at midnight, the Airflow DAG:
-1. Fetches latest Turkish financial news from TradingView
-2. Matches each article to BIST tickers using exact + Jaro-Winkler fuzzy matching
-3. Scores sentiment per article (`-2` strong sell → `+2` strong buy)
-4. Executes trades via a virtual wallet (persisted in `wallet.json`)
+**Training Pipeline:**
+Every Friday, collects macroeconomic data and retrains neural network models for all BIST companies using the latest technical, macro, and sentiment features. Ensures models are always up to date for accurate predictions.
+
+**Trading Pipeline:**
+Every weekday after market close, loads the latest news and macro data, generates daily predictions for all BIST companies using the trained models, and automatically executes buy/sell/hold decisions via the virtual wallet. This pipeline keeps the trading logic fully automated and up to date with the latest data.
 
 ---
 
@@ -100,6 +89,21 @@ Virtual wallet with JSON persistence (`src/workspace/wallet.json`).
 - Sentiment `0` → hold
 - Sentiment `-1` / `-2` → sell all
 
+
+### Estimater (NN-Based Stock Prediction)
+`src/estimater/estimater1.py` — Neural network-based direction prediction for BIST stocks using technical, macroeconomic, and news sentiment data.
+
+**Pipeline:**
+1. **Macro Data Collection:**
+      - Automatically fetches and caches TCMB/EVDS FX rates and FRED US macroeconomic data.
+2. **Feature Engineering:**
+      - Combines technical indicators (60+ features), macroeconomic signals, and news sentiment scores.
+3. **Model Training:**
+      - Trains a separate residual block neural network for each company and saves models to disk.
+4. **Prediction:**
+      - Uses trained models to predict next-day direction; results are saved to the SQLite database.
+5. **Trade:**
+      - Executes buy/sell operations automatically via the virtual wallet based on predictions.
 ---
 
 ## Project Structure
@@ -110,6 +114,7 @@ src/
   scraper/          # News scraper (v1, v2, v3)
   matcher/          # Company matcher + BIST data
   sentimenter/      # Sentiment analyzer + fine-tune notebook
+  estimater/        # Next day value estimater via Resudial NN
   stockbroker/      # Wallet + trade logic
   models/           # Local model cache (auto-downloaded if missing)
   workspace/        # wallet.json
